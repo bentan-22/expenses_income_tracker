@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ga-project-2/static/css/main.13e0b2d2.css",
+    "main.js": "/ga-project-2/static/js/main.16fc978d.js",
+    "index.html": "/ga-project-2/index.html",
+    "main.13e0b2d2.css.map": "/ga-project-2/static/css/main.13e0b2d2.css.map",
+    "main.16fc978d.js.map": "/ga-project-2/static/js/main.16fc978d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13e0b2d2.css",
+    "static/js/main.16fc978d.js"
+  ]
+}
