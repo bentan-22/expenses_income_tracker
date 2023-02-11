@@ -9,14 +9,13 @@ const API = () => {
     const [currency, setCurrency] = useState('');
     
     useEffect(() => {
-        const apiUrl = 'https://v6.exchangerate-api.com/v6/c9468b46cb86c11d8cb41d53/latest/';
-        const apiUrlPlusSign = apiUrl + sign
+        const apiUrl = process.env.REACT_APP_API_KEY;
+        const apiUrlPlusSign = apiUrl + sign;
         fetch(apiUrlPlusSign)
         .then(response => response.json())
         .then(responseData => { /* responseData is an object */
             setCurrencyNameRatePair(responseData.conversion_rates); /* conversion_rates is another object in the responseData object */
             setCurrencyList((Object.keys(responseData.conversion_rates))); /* extract the keys (currency names) */
-            console.log(apiUrlPlusSign);
         });
     }, [sign]); /* useEffect every time [sign] changes */
 
