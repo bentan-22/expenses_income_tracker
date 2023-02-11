@@ -7,15 +7,17 @@ const HomePage = () => {
   return (
   <>
     <div className='flex flex-col'>
-      <div className='pb-8 flex flex-row space-x-4'>
+      <div className='pl-20 pb-8 flex flex-row space-x-4'>
         <h1 className='flex flex-row font-sans text-3xl text-red-700'>Total Expenses:</h1>
         <ExpenseBalance />
       </div>
-      <div className='pb-8 flex flex-row space-x-4'>
+      <div className='pl-20 pb-8 flex flex-row space-x-4'>
         <h1 className='flex flex-row font-sans text-3xl text-green-700'>Total Income: </h1>
         <IncomeBalance />
       </div>
+      <div className='pl-20'>
       <API />
+      </div>
     </div>
   </>
 )}
