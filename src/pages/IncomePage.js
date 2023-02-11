@@ -6,7 +6,7 @@ import API from '../components/API';
 
 const IncomePage = () => {
   return (
-    <div className='pl-20'>
+    <div className='pl-10'>
       <span className='font-serif flex flex-row space-x-5'>
         <h4 className='text-3xl text-green-600'>Total Income</h4>
         <IncomeBalance />
