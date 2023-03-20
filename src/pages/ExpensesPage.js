@@ -4,18 +4,18 @@ import ExpenseTransactionList from '../components/Expenses/ExpenseTransactionLis
 import AddExpense from '../components/Expenses/AddExpense';
 import API from '../components/API';
 
-const ExpensesPage = () => {
+function ExpensesPage() {
   return (
-    <div className='pl-10'>
-      <span className='font-serif flex flex-row space-x-5'>
-        <h4 className='text-3xl text-red-600'>Total Expenses</h4>
+    <section>
+      <header>
+        <h2>Total Expenses</h2>
         <ExpenseBalance />
-      </span>
+      </header>
       <ExpenseTransactionList />
       <AddExpense />
       <API />
-    </div>
-  )
+    </section>
+  );
 }
 
 export default ExpensesPage;
