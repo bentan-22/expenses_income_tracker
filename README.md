@@ -5,7 +5,7 @@ This project was created as the second project for the course SEIF-SG-12 by Gene
 You can generate lists of expense and income transactions, with each transaction showing the amount, category, remarks (if any) and a timestamp. All the amounts can be converted to any currency using a third-party API key.
 
 ### How to Run the Project
-Open https://bentan-22.github.io/ga-project-2/ in a browser.
+Run 'npm start' after downloading.
 
 ### Technologies Used
 The project was created with React and Redux, and styling was done with Tailwind CSS.
